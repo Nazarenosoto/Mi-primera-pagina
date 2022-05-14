@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Texto{
+    text-decoration: none;
+}
+.textcenter{
+    text-align: center;
+}    
+.textleft{
+    text-align: left;
+}
