@@ -8,37 +8,44 @@
     <title>Contacto</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
-<body class="conteiner">
+<body class="conteinerr">
+<!--Empieza nav-->
 <!--Empieza nav-->
 <header class="navegador">
-    <div class="menu">
-    <nav>
+    <nav class=" navbar-expand-lg menu">
+        <!--Bottom-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--Cierra bottom-->
         <ul>
             <!--li 1-->
             <li>
-                <a href="./index.html#inicio">Inicio</a>
+                <a href="./index.html#inicio" class="nav-item">Inicio</a>
             </li>
-            <!--Li 2-->
+            <!--li 2-->
             <li>
-                <a href="./Acercade.html#Acercade">Acerca De</a>
+                <a href="./Acercade.html#Acercade" class="nav-item">Sobre mi</a>
             </li>
-            <!--Li 3-->
+            <!--li 3-->
             <li>
-                <a href="./Paises.html#Paises">Paises</a>
+                <a href="./Contacto.html#Contacto" class="nav-item">Contacto</a>
             </li>
-            <!--Li 4-->
-            <li>
-                <a href="./Servicios.html#Servicios">Servicios</a>
+            <!--Li de bootstrap-->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Opciones
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="./Paises.html">Paises</a></li>
+                <li><a class="dropdown-item" href="./Servicios.html">Servicios</a></li>
+                </ul>
             </li>
-            <!--Li 5-->
-            <li>
-                <a href="./Contacto.html#Contacto">Contacto</a>
-            </li>
+            <!--Cierra-->
         </ul>
     </nav>
-    </div>
-    
 </header>
+<!--Cierra Nav-->
 <!--Cierra Nav-->
 
 <!--Empieza El contenido-->
