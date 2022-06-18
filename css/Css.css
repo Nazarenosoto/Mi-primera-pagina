@@ -56,7 +56,7 @@ nav ul li a:hover{
     background-size: cover;
     background-position: center;
     transition: all .1s ease-in-out;
-    background-image: url(../img/Coliseo-de-Roma-abril-2007.jpg);
+    background-image: url(../img/principal/Italia.jpg);
 }
 .banner-content{
     margin: 0%;
