@@ -17,16 +17,17 @@ header{
     display: table;
 }
 .menu{
-    width: 900px;
-    margin: 0 auto;
+    width: 100%;
+    margin: auto;
+    padding: 5px;
 }
 nav{
     float: right;
 }
 nav ul li{
     list-style: none;
-    margin-left: 35px;
-    padding: 20px 20px;
+    margin-left: 150px;
+    padding: 13px 15px;
     float: left;
     position: relative;
 }
@@ -163,29 +164,34 @@ nav ul li a:hover{
     font-weight: 100;
 }
 .contenedor{
-    width: 950px;
-    height: 600px;
+    width: 920px;
+    height: 450px;
     display: flex;
     justify-content: center;
     margin: auto;
 }
+.hh2{
+    text-align: center;
+    justify-content: center;
+    color: rgb(92, 92, 92);
+}
 .card{
-    margin: 330px;
-    height: 430px;
+    margin: 20px;
+    height: 700px;
     border-radius: 8px;
     box-shadow: 0 2px 2px rgb(0, 0, 0);
     overflow: hidden;
-    margin: 20px;
     text-align: center;
     transition: all 0.25s;
+    flex-wrap: wrap;
 }
 .card:hover{
     transform: translate(-10px);
     box-shadow: 0 12px 16px rgb(0, 0, 0);
 }
 .card img{
-    width: 330px;
-    height: 220px;
+    width: 100%;
+    height: 55%;
 }
 .card h4{
     font-weight: 600;
@@ -242,13 +248,14 @@ nav ul li a:hover{
         display: flex;
     }
     .row img{
-        width: 48px;
-        height: 47px;
+        width: 70px;
+        height: 50px;
     }
     .row label{
-        margin-top: 15px;
+        margin-top: 7px;
         margin-left: 15px;
         color: #c7c7c7;
+        max-width: 160px;
     }
     .colum3{
         max-width: 400px;
@@ -257,12 +264,12 @@ nav ul li a:hover{
         font-size: 22px;
     }
     .row2{
-        margin-top: 20px;
+        margin-top: 30px;
         display: flex;
     }
     .row2 img{
-        width: 36px;
-        height: 36px;
+        width: 50px;
+        height: 40px;
     }
     .row2 label{
         margin-top: 5px;
@@ -271,7 +278,8 @@ nav ul li a:hover{
         color: #c7c7c7;
     }
     .container2{
-        width: 100%;
+        max-width: 2000px;
+        margin: auto;
         background: #000000;
         display: flex;
         padding: 25px;
@@ -292,7 +300,7 @@ nav ul li a:hover{
 /*Termina footer*/
 
 /*Grid*/
-.conteiner{
+.conteinerr{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto auto auto auto auto;
@@ -300,10 +308,8 @@ nav ul li a:hover{
     "navegador navegador navegador navegador" 
     "section section section section"
     "main main main main"
-    "main main main main"
     "section2 section2 section2 section2"
-    "section2 section2 section2 section2"
-    "footer footer footer footer"
+    "footeer footeer footeer footeer"
 }
 .navegador{
     grid-area: navegador;
@@ -318,19 +324,148 @@ nav ul li a:hover{
 .section2{
     grid-area: section2;
 }
-.footer{
-    grid-area: footer;
+.footeer{
+    grid-area: footeer;
 }
 /*Termina Grid*/
 
 /*Los media*/
-@media (min-width:693px){
-    .section{
-        width: 100%;
-        
+@media screen and (max-width:1100px){
+    .container1{
+        flex-wrap: wrap;
     }
+    .colum2, .colum3{
+        margin-top: 40px;
+    }
+    .card{
+        flex-wrap: wrap;
+    }
+
 }
 
-
-
 /*Terminan*/
+
+/*Empieza portafolio*/
+
+/*Main*/
+.contenido{
+    margin: 2rem;
+    height: 700px;
+    background-color: rgb(251, 255, 255);
+    opacity: 1.5;
+
+}
+.profile div {
+    position: absolute;
+    margin: 110px;
+
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+
+}
+
+.profile2 {
+    border-radius: 15px;
+    width: 320px;
+    height: 450px;
+    background-color: #505050;
+    opacity: .5;
+    z-index: 10;
+    top:70px;
+
+}
+
+.profile3 {
+    width: 290px;
+    height: 290px;
+    border-radius: 50%;
+    border: solid 30px #3a4239;
+    opacity: .1;
+    z-index: 19;
+    top:90px;
+
+}
+
+.circle {
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    border: solid 15px #000000;
+    opacity: 0.3;
+    z-index: 21;
+    top:120px;
+}
+
+.profile-img {
+    top:134px;
+    z-index: 20;
+}
+
+.profile-img img {
+    width: 202px;
+    height: 202px;
+    border-radius: 50%;
+
+}
+
+.profile-text{
+    font-size: 1.9rem;
+    color: #000000;
+    top:380px;
+    z-index: 11;
+
+}
+.profile-text-2{
+    font-size: 1.1rem;
+    color:  #0b491e;
+    top: 418px;
+    z-index: 11;
+}
+
+.profile-text-3{
+    font-size: 1.3rem;
+    color: #000000;
+    top:490px;
+    z-index: 11;
+}
+.profile-text-3:hover {
+    border-bottom: #1fff62 solid;
+}
+
+.profile-text-3 a{
+    color: rgb(26, 26, 26);
+    text-decoration: none;
+}
+.contact-icon {
+    top:450px;
+    z-index: 11;
+
+}
+.contact-icon img {
+    width: 40px;
+    margin: 0 10px;
+}
+
+.contact-icon img:hover {
+    transform: scale(1.4);
+}
+
+/*Cierra main*/
+
+/*Cierra portafolio*/
+
+/*Empieza carrusel*/
+
+/*Este carrusel es de la seccion paises*/
+.carruusel1{
+    margin: auto;
+    padding: auto;
+}
+.carruusel img{
+    width: 800px;
+    height: 500px;
+}
+/*----*/

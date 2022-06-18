@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="img/plane-alt-solid-24.png" type="image/x-icon">
     <link rel="stylesheet" href="css/Css.css">
-    <title>Aerolíneas Pj</title>
+    <title>Contacto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
-<body>
+<body class="conteiner">
 <!--Empieza nav-->
-<header>
+<header class="navegador">
     <div class="menu">
     <nav>
         <ul>
@@ -41,12 +41,26 @@
 </header>
 <!--Cierra Nav-->
 
-<!--Empieza el contenido-->
-    <h1>Aca voy a hacer como un blog sobre mi, contando quien soy y esas cosas</h1>
-<!--Cierra el contenido-->
+<!--Empieza El contenido-->
+    <section class="contenido section">
+        <div class="profile ">
+            <div class="profile2"></div>
+            <div class="profile3"></div>
+            <div class="circle"></div>
+            <div class="profile-img"><img src="./img/yo.jpeg" alt="Foto del creador"></div>
+            <div class="profile-text">NAZARENO SOTO</div>
+            <div class="profile-text-2"><span>ESTUDIANTE | DESARROLLADOR WEB</span></div>
+            <div class="contact-icon">
+                <a href="https://github.com/Nazarenosoto" target="_blank"><img src="./img/redes/silueta-del-logo-de-github-en-un-cuadrado.png" alt="Mi github"></a>
+                <a href="https://www.instagram.com/nazasoto_/"target="_blank"><img src="./img/redes/instagram (2).png" alt="mi instagram"></a>
+            </div>
+            <div class="profile-text-3"><a href="#about-me"><span>Acerca de |</span> Sobre Mi</a></div>
+        </div>
+    </section>
+<!--Termina el contenido-->
 
 <!--Empieza el footer-->
-<footer class="footer">
+<footer class="footer footeer">
     <!--Empieza conteiner Principal-->
     <div class="conteiner__principal">
         <!--Empieza El div container1-->
@@ -129,5 +143,13 @@
     <!--Cierra conteiner Principal-->
     </footer>
 <!--Cierra el footer-->
+<!--Los script-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<!--Bootstrap-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<!--Cierran-->
 </body>
 </html>
