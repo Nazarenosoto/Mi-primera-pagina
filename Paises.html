@@ -9,42 +9,24 @@
     <title>The Word</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
-<body>
+<body class="container-fluid g-0">
 <!--Empieza nav-->
-<header>
-    <nav class=" navbar-expand-lg menu">
-        <!--Bottom-->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+<nav class="navbar navbar-expand-lg bg-left">
+    <div class="container-fluid m-1">
+        <a class="navbar-brand" href="./index.html">The world</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
         </button>
-        <!--Cierra bottom-->
-        <ul>
-            <!--li 1-->
-            <li>
-                <a href="./index.html#inicio" class="nav-item">Inicio</a>
-            </li>
-            <!--li 2-->
-            <li>
-                <a href="./Acercade.html#Acercade" class="nav-item">Sobre mi</a>
-            </li>
-            <!--li 3-->
-            <li>
-                <a href="./Contacto.html#Contacto" class="nav-item">Contacto</a>
-            </li>
-            <!--Li de bootstrap-->
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Opciones
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="./Paises.html">Paises</a></li>
-                <li><a class="dropdown-item" href="./Servicios.html">Servicios</a></li>
-                </ul>
-            </li>
-            <!--Cierra-->
-        </ul>
-    </nav>
-</header>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="sobremi.html">Sobre mi</a>
+            <a class="nav-link" href="./Servicios.html">Servicios</a>
+            <a class="nav-link" href="./Paises.html">Paises</a>
+            <a class="nav-link active" href="./Contacto.html">Registrar</a>
+        </div>
+    </div>
+    </div>
+</nav>
 <!--Cierra Nav-->
 
 <!--Empieza el carrusel--> 

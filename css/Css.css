@@ -3,48 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-/*
-body{
-    background: rgb(255, 255, 255);
-    font-family: 'calibri';
+
+/*Body*/
+.bkc2{
+    background: rgb(223, 248, 243);
 }
-.header{
-    background: #000000;
-    width: 100%;
-    clear: both;
-    content: '';
-    display: table;
-}
-.menu{
-    width: 100%;
-    margin: auto;
-    padding: 5px;
-}
-nav{
-    float:right;
-}
-nav{
-    list-style: none;
-    margin-left: 170px;
-    padding: 13px 15px;
-    float: left;
-    position: relative;
-    justify-content: space-between;
-}
-nav a{
-    text-decoration: none;
-    color: rgb(253, 253, 253);
-    padding: 9px 20px;
-    border: 1px solid rgb(0, 0, 0);
-    text-transform: uppercase;
-    transition: all .2s ease-in-out;
-    border-radius: 5px;
-}
-nav a:hover{
-    background-color: rgb(250, 250, 250);
-    color: rgb(0, 0, 0);
-}
-Termina nav*/
+
+/*Cierra*/
 
 /*Imagen hero*/
 .banner{
@@ -91,50 +56,8 @@ Termina nav*/
 /*Termina la imagen Hero*/
 
 /*Menu de registro*/
-.registro{
-    width: 400px;
-    background: #000000;
-    padding: 30px;
-    margin: auto;
-    margin-top: 100px;
-    border-radius: 4px;
-    font-family: 'calibri';
-    color: #FFF;
-    box-shadow: 9px 15px 40px #000000;
-}
-.registro h4{
-    font-size: 22px;
-    margin-bottom: 20px;
-}
-.controls{
-    width: 100%;
-    background: #252323;
-    padding: 15px;
-    border-radius: 4px;
-    margin-bottom: 13px;
-    border: 1px solid #1f53c5;
-}
-.registro p{
-    height: 45px;
-    text-align: center;
-    font-size: 20px;
-}
-.registro a{
-    color: #FFF;
-    text-decoration: none;
-}
-.registro a:hover{
-    color: #FFF;
-    text-decoration: underline;
-}
-.registro .botons{
-    width: 100%;
-    background: #1f53c5;
-    border: none;
-    padding: 15px;
-    color: #FFF;
-    margin: 20px 0;
-    font-size: 16px;
+.bkc{
+    background:rgb(223, 253, 250);
 }
 /*Cierra Menu*/
 
@@ -156,54 +79,36 @@ Termina nav*/
 /*Cierra Contenido*/
 
 /*Section 2*/
-.ttitle{
-    text-align: center;
-    font-size: 40px;
-    color: #6a6a6a;
-    margin-top: 100px;
-    font-weight: 100;
-}
-.contenedor{
-    width: 950px;
-    height: 450px;
-    display: flex;
-    justify-content: left;
-    margin: auto;
-}
 .hh2{
+    margin-top: 20px;
     text-align: center;
     justify-content: center;
     color: rgb(92, 92, 92);
 }
-.card{
-    margin: 20px;
-    height: 350px;
-    border-radius: 8px;
-    box-shadow: 0 2px 2px rgb(0, 0, 0);
-    overflow: hidden;
-    text-align: center;
-    transition: all 0.25s;
+.card2{
+    padding: 5px;
+    border-radius: 25px;
+    background:rgb(224, 233, 247);
+    opacity: 1;
 }
-.card:hover{
+.card2:hover{
     transform: translate(-10px);
     box-shadow: 0 12px 16px rgb(0, 0, 0);
+    padding-left: 10px;
 }
-.card img{
-    width: 100%;
-    height: 55%;
-}
-.card h4{
+
+.card2 h5{
     font-weight: 600;
 }
-.card p{
+.card2 p{
     padding: 0 1rem;
     font-size: 16px;
     font-weight: 300;
 }
-.card a{
+.card2 a{
     font-weight: 500;
     text-decoration: none;
-    color: #1f53c5;
+    color: #4b321d;
 }
 
 /*Termina secition 2*/
@@ -459,13 +364,4 @@ Termina nav*/
 
 /*Empieza carrusel*/
 
-/*Este carrusel es de la seccion paises*/
-.carruusel1{
-    margin: auto;
-    padding: auto;
-}
-.carruusel1 img{
-    width: 700px;
-    height: 500px;
-}
-/*----*/
+
