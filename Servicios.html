@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/plane-alt-solid-24.png" type="image/x-icon">
     <link rel="stylesheet" href="css/Css.css">
-    <title>The Word</title>
+    <title>The World</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
-<body class="container-fluid g-0">
+<body class="container-fluid g-0 bkc2">
 <!--Empieza nav-->
 <nav class="navbar navbar-expand-lg bg-left">
     <div class="container-fluid m-1">
@@ -30,93 +30,85 @@
 <!--Cierra Nav-->
 
 <!--Empieza el contenido-->
-
+    <section class="container brd">
+        <h1 class="hhh1">Reservar viaje</h1>
+        <!--Correo-->
+        <form action="#">
+    <div class="row p-4">
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Dirección de correo electrónico</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="ejemplo@example.com">
+        </div>
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">@</span>
+                <input type="text" class="form-control" placeholder="Nombre de usuario" aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+            <div class="col-auto">
+                <button type="submit" class="btn btn-primary mb-3">Confirmar identidad</button>
+            </div>
+            <!--Lugares-->
+            <label for="basic-url" class="form-label">¿A donde vamos?</label>
+            <div class="input-group mb-3">
+                <label class="input-group-text" for="inputGroupSelect01">Origen</label>
+                <select class="form-select" id="inputGroupSelect01">
+                    <option selected>Buscar</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+            </div>
+            <div class="input-group mb-3">
+                <label class="input-group-text" for="inputGroupSelect01">Destino</label>
+                <select class="form-select" id="inputGroupSelect01">
+                    <option selected>Buscar</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+            </div>
+            <!--Fechas-->
+            <div class="input-group mb-2 row-2">
+                <div class="mb-3 p-2">
+                    <label for="fechaInicial" class="form-label">Fecha inicial</label>
+                    <input type="date" name="fechaInicial" class="form-control" id="fechaInicial" placeholder="dd/mm/aaaa">
+                </div>
+                <div class="mb-3 p-2">
+                    <label for="fechaFinal" class="form-label">Fecha Final</label>
+                    <input type="date" name="fechaFinal" class="form-control" id="fechaFinal" placeholder="dd/mm/aaaa">
+                </div>
+            </div>
+            <!--Fin Fechas-->
+            <!--Pasajeros-->
+            <label for="basic-url" class="form-label">¿Cuantos pasajeros sois?</label>
+            <div class="input-group mb-3 row-2">
+                <label class="input-group-text" for="inputGroupSelect01">Pasajeros</label>
+                <select class="form-select" id="inputGroupSelect01">
+                    <option selected>Buscar</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="3">Mas</option>
+                </select>
+                <label class="input-group-text" for="inputGroupSelect01">Clase</label>
+                <select class="form-select" id="inputGroupSelect01">
+                    <option selected>Buscar</option>
+                    <option value="1">Economica</option>
+                    <option value="2">Ejecutiva</option>
+                </select>
+            </div>
+            <!--Termina Pasajeros-->
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Confirmar</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+            <!--Fin-->
+        </form>
+    </div>
+    </section>
 <!--Cierra el contenido-->
 
-<!--Empieza el footer-->
-<footer class="footer">
-    <!--Empieza conteiner Principal-->
-    <div class="conteiner__principal">
-        <!--Empieza El div container1-->
-        <div class="container1">
-            <!--Empieza colum1-->
-            <div class="colum1">
-                <h1>Mas informacion sobre nosotros</h1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur sunt, maiores ab sapiente sit nam dolorem reiciendis mollitia neque. Beatae quia ducimus nobis eaque, explicabo recusandae. Sunt necessitatibus eum blanditiis! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam fuga harum eaque nulla tempore, minus quo consequatur ea quod amet pariatur accusamus aperiam error voluptas dolores alias architecto, opt</p>
-            </div>
-            <!--Cierra colum1-->
 
-            <!--Empieza colum2-->
-            <div class="colum2">
-                <h1>Redes Sociales</h1>
-                <!--Row-->
-                <div class="row">
-                    <img src="../Nuevo proyecto/img/redes/facebook (1).png" alt="Siguenos en Facebook">
-                    <label for="">Siguenos en Facebook</label>
-                </div>
-                <!--Cierra Row-->
-                <!--Row2-->
-                <div class="row">
-                    <img src="../Nuevo proyecto/img/redes/gorjeo.png" alt="Siguenos en twitter">
-                    <label for="">Siguenos en twitter</label>
-                </div>
-                <!--Cierra Row2-->
-                <!--Row3-->
-                <div class="row">
-                    <img src="../Nuevo proyecto/img/redes/instagram (1).png" alt="Siguenos en instagram">
-                    <label for="">Siguenos en Instagram</label>
-                </div>
-                <!--Cierra Row3-->
-            </div>
-            <!--Cierra colum2-->
-
-            <!--Empieza colum3-->
-            <div class="colum3">
-                <h1>Informacion Contactos</h1>
-                <!--Empieza row1-->
-                <div class="row2">
-                    <img src="../Nuevo proyecto/img/redes/casa.png" alt="inicio">
-                    <label for="">Lorem ipsum dolor sit amet. eum sit voluptates delectus qui ab in earum sapiente odio illum, facilis minus velit eos non?</label>
-                </div>
-                <!--Cierra row1-->
-
-                <!--Empieza row2-->
-                <div class="row2">
-                    <img src="../Nuevo proyecto/img/redes/llamada.png" alt="phone">
-                    <label for="">+54-345-493-7492</label>
-                </div>
-                <!--Cierra row2-->
-
-                <!--Empieza row3-->
-                <div class="row2">
-                    <img src="../Nuevo proyecto/img/redes/gmail.png" alt="gmail">
-                    <label for="">Losviajesdelmundo93@gmail.com</label>
-                </div>
-                <!--Cierra row3-->
-            </div>
-            <!--Cierra colum3-->
-        </div>
-        <!--Cierra el div container1-->
-
-        <!--Empieza el div container2-->
-        <div class="container2">
-
-            <!--Div 1-->
-            <div class="copyright">
-                © 2022 Todos los derechos reservados |<a href="">The Word</a>
-            </div>
-            <!--Cierra div 1-->
-            
-            <!--Empieza div 2-->
-            <div class="info">
-                <a>Informacion Compañia</a>| <a>Privacidad y Politica</a>| <a>Terminos y Condiciones</a>
-            </div>
-            <!--Cierra div2-->
-        </div>
-    </div>
-    <!--Cierra conteiner Principal-->
-    </footer>
-<!--Cierra el footer-->
 <!--Los script-->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
