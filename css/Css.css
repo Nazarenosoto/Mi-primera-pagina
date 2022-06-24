@@ -178,95 +178,11 @@
 
 .profile {
     display: flex;
-    justify-content: center;
-
+    justify-content: center; 
+    width: 480px;
+    height: 360px;  
 }
 
-.profile2 {
-    border-radius: 15px;
-    width: 320px;
-    height: 450px;
-    background-color: #505050;
-    opacity: .5;
-    z-index: 10;
-    top:70px;
-
-}
-
-.profile3 {
-    width: 290px;
-    height: 290px;
-    border-radius: 50%;
-    border: solid 30px #3a4239;
-    opacity: .1;
-    z-index: 19;
-    top:90px;
-
-}
-
-.circle {
-    width: 230px;
-    height: 230px;
-    border-radius: 50%;
-    border: solid 15px #000000;
-    opacity: 0.3;
-    z-index: 21;
-    top:120px;
-}
-
-.profile-img {
-    top:134px;
-    z-index: 20;
-}
-
-.profile-img img {
-    width: 202px;
-    height: 202px;
-    border-radius: 50%;
-
-}
-
-.profile-text{
-    font-size: 1.9rem;
-    color: #000000;
-    top:380px;
-    z-index: 11;
-
-}
-.profile-text-2{
-    font-size: 1.1rem;
-    color:  #0b491e;
-    top: 418px;
-    z-index: 11;
-}
-
-.profile-text-3{
-    font-size: 1.3rem;
-    color: #000000;
-    top:490px;
-    z-index: 11;
-}
-.profile-text-3:hover {
-    border-bottom: #1fff62 solid;
-}
-
-.profile-text-3 a{
-    color: rgb(26, 26, 26);
-    text-decoration: none;
-}
-.contact-icon {
-    top:450px;
-    z-index: 11;
-
-}
-.contact-icon img {
-    width: 40px;
-    margin: 0 10px;
-}
-
-.contact-icon img:hover {
-    transform: scale(1.4);
-}
 
 /*Cierra main*/
 
