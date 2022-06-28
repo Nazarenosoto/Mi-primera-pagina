@@ -1,0 +1,44 @@
+/*Imagen hero*/
+.banner{
+    position: relative;
+    width: auto;
+    height: calc(100vh - 55px);
+    background-color: #f5f5ff;
+    background-size: cover;
+    background-position: center;
+    transition: all 0.1s ease-in-out;
+    background-image: url(../img/principal/Italia.jpg);
+    .banner-content{
+            margin: 0%;
+            padding: 0%;
+            width: 100%;
+            height: 100%;
+            color: #FFF;
+            background-color: rgba(0, 22, 40, 0.6);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        h1{
+            margin: 0%;
+            padding: 0%;
+            padding-bottom: 30px;
+            font-size: 40px;
+            text-align: center;
+        }
+    }
+        a{
+            text-decoration: none;
+            color: #FFF;
+            padding: 9px 20px;
+            border: 1px solid #FFF;
+            text-transform: uppercase;
+            transition: all 0.3s ease-in-out;
+        &:hover{
+                background-color: #FFF;
+                color: #333;
+            }
+        }
+    
+}
+/*Termina la imagen Hero*/

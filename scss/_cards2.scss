@@ -1,0 +1,30 @@
+.hh2{
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+    color: rgb(92, 92, 92);
+}
+.card2{
+    padding: 5px;
+    border-radius: 25px;
+    background:rgb(224, 233, 247);
+    opacity: 1;
+    &:hover{
+    transform: translate(-10px);
+    box-shadow: 0 12px 16px rgb(0, 0, 0);
+    padding-left: 10px;
+    }
+    h5{
+        font-weight: 600;
+    }
+    p{
+        padding: 0 1rem;
+        font-size: 16px;
+        font-weight: 300;
+    }
+    a{
+        font-weight: 500;
+        text-decoration: none;
+        color: #4b321d;
+    }
+}

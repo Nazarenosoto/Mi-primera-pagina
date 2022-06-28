@@ -1,0 +1,14 @@
+.hh1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: monospace;
+}
+.galeria{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    img{
+    max-width: 400px;
+    padding: 1rem;
+    }
+}
