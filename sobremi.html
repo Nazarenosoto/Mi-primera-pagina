@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="scss/style.scss">
     <title>Contacto</title>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
-<body class="container-fluid g-0 bkc2">
+<body class="container-fluid g-0">
 <!--Empieza nav-->
 <nav class="navbar navbar-expand-lg bg-left">
     <div class="container-fluid m-1">
@@ -30,17 +31,47 @@
 <!--Cierra Nav-->
 
 <!--Empieza El contenido-->
-<main>
-    <div class="container profile">
-        <img src="./img/principal/yo.jpeg" alt="Yo" class="mb-5">
+<section class="container-fluid contenido">
+    <p class="text-center hh3">Nazareno Soto</p>
+    <div class="profile">
+        <img src="./img/principal/yo.jpg" alt="Yo">
     </div>
-    <h1 class="hh2">¿Quien soy?</h1>
-    <!--Div padre-->
-    <div class="container" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-        <!--Div1-->
+</section>
+
+
+<div class="container text-center p-3" data-aos="fade-left">
+    <a href="#quiensoy?" class="btn-neon">
+        ¿Quien soy?
+    </a>
+</div>
+<div class="container text-center p-3" data-aos="fade-left">
+    <a href="#cualidades" class="btn-neon">
+        Cualidades 
+    </a>
+</div>
+<div class="container text-center p-3" data-aos="fade-left">
+    <a href="#experiencia" class="btn-neon">
+        Experiencia
+    </a>
+</div>
+
+<!--Quien soy?-->
+<section class="container-fluid text-center concor g-0" id="quiensoy?">
+    <!--Div1-->
+    <div>
+        <img src="./img/principal/Concordia.jpg" alt="mi ciudad">
+        <p>
+            Hola! Como estas?, soy Nazareno Soto un estudiante de 18 años de la ciudad de Concordia, Si no ubicas
+            donde queda mi querida ciudad dejame que te explico jajaja, Concordia es un departamento chiquito 
+            ubicado en la provicia de Entre Rios en Argentina, estaré dejando un mapa para que me puedan entender mejor
+        </p>
     </div>
-    <!--Termina div Padre-->
-</main>
+    <!--Div2-->
+    <div class="row-2" data-aos="flip-left">
+        <img src="./img/carrusel1/Concordia1.png" alt="Mi ciudad">
+    </div>
+</section>
+
 <!--Termina el contenido-->
 
 <!--Termina section2-->

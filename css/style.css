@@ -29,6 +29,7 @@
   text-align: center;
 }
 .banner a {
+  border-radius: 5px;
   text-decoration: none;
   color: #FFF;
   padding: 9px 20px;
@@ -42,24 +43,6 @@
 }
 
 /*Termina la imagen Hero*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/*Body de Menu de registro*/
-.bkc {
-  background: rgb(223, 253, 250);
-}
-
-/*Cierra Menu*/
-/*Body*/
-.bkc2 {
-  background: rgb(238, 254, 255);
-}
-
-/*Cierra*/
 .hh2 {
   margin-top: 20px;
   text-align: center;
@@ -110,17 +93,13 @@
 
 /*Main*/
 .contenido {
-  margin: 2rem;
-  height: 700px;
-  background-color: rgb(251, 255, 255);
-  opacity: 1.5;
+  background-color: rgb(223, 253, 250);
 }
 
 .profile {
+  margin-top: 10px;
   display: flex;
   justify-content: center;
-  width: 480px;
-  height: 360px;
 }
 .profile div {
   position: absolute;
@@ -128,6 +107,26 @@
 }
 
 /*Cierra main*/
+/*Quien soy?*/
+.concor {
+  background: rgb(223, 253, 250);
+  border: 1px solid rgb(173, 243, 255);
+  margin-top: 25px;
+  padding: 25px;
+  margin: 50px;
+}
+.concor p {
+  font-size: 24px;
+  margin-top: 35px;
+  margin-bottom: 2rem;
+  color: rgb(0, 0, 0);
+}
+
+.hh3 {
+  font-size: 30px;
+  color: rgb(41, 41, 41);
+}
+
 /* Section Servicios*/
 .brd {
   margin-top: 30px;
@@ -163,4 +162,29 @@
   color: rgb(4, 166, 187);
 }
 
-/*Cierra*//*# sourceMappingURL=style.css.map */
+/*Cierra*/
+.btn-neon {
+  position: relative;
+  display: inline-block;
+  padding: 10px 30px;
+  color: rgb(255, 255, 255);
+  background: black;
+  letter-spacing: 4px;
+  font-size: 20px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.2s;
+  border-radius: 8px;
+}
+.btn-neon:hover {
+  color: rgb(98, 255, 208);
+  background: rgb(0, 0, 0);
+  box-shadow: 0 0 10px black, 0 0 40px black, 0 0 80px black;
+  transition: 1s;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "calibri";
+}/*# sourceMappingURL=style.css.map */

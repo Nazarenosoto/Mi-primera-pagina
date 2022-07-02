@@ -1,17 +1,9 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-/*Body de Menu de registro*/
-.bkc{
-    background:rgb(223, 253, 250);
-}
-/*Cierra Menu*/
 
-/*Body*/
-.bkc2{
-    background: rgb(238, 254, 255);
-}
-/*Cierra*/
+$colores:(
+color1: rgb(223, 253, 250),
+color2:rgb(238, 254, 255), 
+color3:rgba(149, 201, 250, 0.74),
+color4: rgb(173, 243, 255),
+color5: rgb(0, 0, 0),
+);
