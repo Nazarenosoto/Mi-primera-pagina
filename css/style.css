@@ -92,28 +92,51 @@
 }
 
 /*Main*/
-.contenido {
-  background-color: rgb(223, 253, 250);
+.bottomm, .site-main .site-banner button a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  padding: 9px 20px;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
 }
 
-.profile {
-  margin-top: 10px;
-  display: flex;
-  justify-content: center;
+.site-main {
+  /*Quien soy*/
 }
-.profile div {
-  position: absolute;
-  margin: 110px;
+.site-main .site-banner {
+  /*tittle*/
+  /*tittle*/
 }
-
+.site-main .site-banner .site-title {
+  /*h3*/
+  /*h3*/
+}
+.site-main .site-banner .site-title h1 {
+  font-size: 5rem;
+}
+.site-main .site-banner .site-title h4 {
+  font-size: 1.5rem;
+}
+.site-main .site-banner .site-title h3 {
+  padding-top: 35%;
+  font-weight: 500;
+}
+.site-main .site-banner .site-title h3::after {
+  content: " ";
+  height: 2px;
+  width: 18vw;
+  background: black;
+  display: inline-block;
+  margin-left: 5%;
+  transform: translateY(-10px);
+}
 /*Cierra main*/
-/*Quien soy?*/
+/*Quien soy*/
 .concor {
-  background: rgb(223, 253, 250);
-  border: 1px solid rgb(173, 243, 255);
+  border: 1px solid rgb(121, 121, 121);
   margin-top: 25px;
-  padding: 25px;
-  margin: 50px;
+  padding: 15px;
+  margin-left: 5px;
 }
 .concor p {
   font-size: 24px;
@@ -121,10 +144,33 @@
   margin-bottom: 2rem;
   color: rgb(0, 0, 0);
 }
+.concor h1 {
+  font-size: 3rem;
+  color: rgb(0, 0, 0);
+}
 
-.hh3 {
+.hh3, .info .about-client h4 {
+  font-size: "calibri";
   font-size: 30px;
   color: rgb(41, 41, 41);
+}
+
+.info .info-img {
+  margin-left: 15px;
+}
+.info .about-client p {
+  font-size: 1.5rem;
+  margin-left: 10px;
+}
+/*Cards*/
+.titulo {
+  margin-top: 30px;
+  height: 100px;
+}
+
+.titulo2 {
+  margin-top: 70px;
+  height: 100px;
 }
 
 /* Section Servicios*/
@@ -167,8 +213,8 @@
   position: relative;
   display: inline-block;
   padding: 10px 30px;
-  color: rgb(255, 255, 255);
-  background: black;
+  color: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
   letter-spacing: 4px;
   font-size: 20px;
   text-decoration: none;
@@ -177,10 +223,10 @@
   border-radius: 8px;
 }
 .btn-neon:hover {
-  color: rgb(98, 255, 208);
+  color: rgb(255, 255, 255);
   background: rgb(0, 0, 0);
-  box-shadow: 0 0 10px black, 0 0 40px black, 0 0 80px black;
-  transition: 1s;
+  box-shadow: 0 0 10px black, 0 0 20px black, 0 0 35px black;
+  transition: 0.5s;
 }
 
 * {

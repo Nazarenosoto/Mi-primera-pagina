@@ -2,8 +2,8 @@
     position: relative;
     display: inline-block;
     padding: 10px 30px;
-    color: rgb(255, 255, 255);
-    background: black;
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
     letter-spacing: 4px;
     font-size: 20px;
     text-decoration: none;
@@ -11,9 +11,9 @@
     transition: 0.2s;
     border-radius: 8px;
     &:hover{
-        color: rgb(98, 255, 208);
+        color: rgb(255, 255, 255);
         background: rgb(0, 0, 0);
-        box-shadow: 0 0 10px black, 0 0 40px black, 0 0 80px black;
-        transition: 1s;
+        box-shadow: 0 0 10px black, 0 0 20px black, 0 0 35px black;
+        transition: 0.5s;
     }
 }
