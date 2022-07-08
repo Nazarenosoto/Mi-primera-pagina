@@ -155,9 +155,6 @@
   color: rgb(41, 41, 41);
 }
 
-.info .info-img {
-  margin-left: 15px;
-}
 .info .about-client p {
   font-size: 1.5rem;
   margin-left: 10px;
@@ -184,6 +181,35 @@
   text-align: center;
   justify-content: center;
   color: rgb(92, 92, 92);
+}
+
+/*Section*/
+.services-area {
+  padding: 1rem;
+}
+.services-area .services-title h1 {
+  font-size: 35px;
+}
+.services-area .services-list .services {
+  border: 1px solid rgb(246, 255, 116);
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.973);
+  padding: 25px;
+  width: auto;
+  margin: 25px;
+  transition: box-shadow 0.7s ease;
+}
+.services-area .services-list .services .ppp {
+  font-size: 35px;
+  color: rgb(19, 168, 255);
+}
+
+.hhh2 {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+.hhh2:hover {
+  color: rgb(2, 128, 212);
 }
 
 /*Cierra*/

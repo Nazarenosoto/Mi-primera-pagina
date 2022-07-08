@@ -1,12 +1,13 @@
-@import "banner.scss";
-@import "colores.scss";
-@import "cards2.scss";
-@import "galeria.scss";
-@import "sobremi.scss";
-@import "carouselpaises.scss";
-@import "servicios";
-@import "teryconPolypri.scss";
-@import "neon.scss";
+
+@import "./components/banner";
+@import "./components/colores";
+@import "./components/cards2";
+@import "./layout/galeria";
+@import "./layout/sobremi";
+@import "./components/carouselpaises";
+@import "./layout/servicios";
+@import "./layout/teryconPolypri";
+@import "./components/neon";
 
 *{
     margin: 0;
