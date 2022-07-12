@@ -1,3 +1,31 @@
+.hh3, .info .about-client h4 {
+  text-align: left;
+  color: darkgray;
+  padding: 25px;
+  text-decoration: dotted;
+}
+
+.text-ae {
+  justify-content: center;
+  text-align: center;
+  border: 1px solid white;
+  background: rgb(255, 255, 255);
+}
+.text-ae a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.text-ae a:hover {
+  color: rgb(9, 177, 177);
+}
+
+.container-ae {
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 25px;
+}
+
+/*Boton de busqueda*/
 /*Imagen hero*/
 .banner {
   position: relative;
@@ -47,13 +75,13 @@
   margin-top: 20px;
   text-align: center;
   justify-content: center;
-  color: rgb(92, 92, 92);
+  color: rgb(85, 85, 85);
 }
 
 .card2 {
   padding: 5px;
   border-radius: 25px;
-  background: rgb(224, 233, 247);
+  background: rgb(255, 255, 255);
   opacity: 1;
 }
 .card2:hover {
@@ -65,14 +93,16 @@
   font-weight: 600;
 }
 .card2 p {
-  padding: 0 1rem;
-  font-size: 16px;
-  font-weight: 300;
+  color: darkgray;
 }
 .card2 a {
+  color: rgb(0, 0, 0);
   font-weight: 500;
   text-decoration: none;
-  color: #4b321d;
+}
+.card2 a:hover {
+  color: rgb(76, 219, 219);
+  transition: 0.2s;
 }
 
 .hh1 {
@@ -210,6 +240,16 @@
 }
 .hhh2:hover {
   color: rgb(2, 128, 212);
+}
+
+.ppp2 {
+  font-size: 35px;
+  color: rgb(19, 168, 255);
+}
+.ppp2 .span {
+  color: black;
+  font-size: 18px;
+  font-weight: 300;
 }
 
 /*Cierra*/
