@@ -259,6 +259,16 @@
 }
 
 /*Cierra*/
+/*Empieza personal*/
+.personal-conten {
+  border: 1px solid rgb(161, 161, 161);
+  border-radius: 8px;
+}
+.personal-conten:hover {
+  box-shadow: 0 0 8px rgb(27, 27, 27), 0 0 15px rgb(27, 27, 27), 0 0 35px black;
+  transition: 0.3s;
+}
+
 /*Terminos y condiciones*/
 .terycon {
   margin-top: 20px;
